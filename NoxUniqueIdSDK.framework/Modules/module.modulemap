@@ -1,0 +1,6 @@
+framework module NoxUniqueIdSDK {
+  umbrella header "NoxUniqueIdSDK.h"
+
+  export *
+  module * { export * }
+}
