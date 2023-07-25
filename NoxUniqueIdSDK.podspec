@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint NoxUniqueId.podspec' to ensure this is a
+#  Be sure to run `pod spec lint NoxUniqueIdSDK.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "NoxUniqueId"
+  spec.name         = "NoxUniqueIdSDK"
   spec.version      = "1.0.0000"
   spec.summary      = "An unique device id SDK provided Nox."
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiUniqueId"
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'NoxUniqueIdSDK' do |ss|
     ss.source_files = "NoxUniqueIdSDK.framework/Headers/*.{h}"
-    ss.ios.vendored_frameworks = 'NPUniqueId.framework'
+    ss.ios.vendored_frameworks = 'NoxUniqueIdSDK.framework'
     ss.dependency 'AFNetworking'
     ss.dependency 'GTMBase64'
     ss.dependency 'Firebase/Analytics'
