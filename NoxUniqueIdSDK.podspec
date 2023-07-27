@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NoxUniqueIdSDK"
-  spec.version      = "1.0.0001"
+  spec.version      = "1.0.0002"
   spec.summary      = "An unique device id SDK provided Nox."
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiUniqueId"
   spec.license      = "MIT"
