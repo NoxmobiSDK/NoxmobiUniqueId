@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-static NSString * const uniqueId_ver = @"1.0.0000";
+static NSString * const uniqueId_ver = @"1.0.0001";
 
 @interface NoxUniqueIdTools : NSObject
 
