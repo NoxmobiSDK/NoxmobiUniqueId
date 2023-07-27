@@ -16,12 +16,12 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NoxUniqueIdSDK"
-  spec.version      = "1.0.0000"
+  spec.version      = "1.0.0001"
   spec.summary      = "An unique device id SDK provided Nox."
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiUniqueId"
   spec.license      = "MIT"
   spec.author       = { "lunxiangyun" => "luanxiangyun@noxgroup.com" }
-  spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/NoxmobiSDK/NoxmobiUniqueId.git", :tag => "#{spec.version}" }
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   spec.requires_arc = true
